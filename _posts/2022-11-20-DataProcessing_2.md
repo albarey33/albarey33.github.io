@@ -8,13 +8,13 @@ tags: [R, Dplyr, Data Processing, Data Analysis]
 #pin: true
 ---
 
-Procedures to process data using R, necessary steps required before generating reports, recaps or to use as input for machine learning models. By the next cases, sometimes the data is taken from different sources, folders and files, sometimes the data is processed using a pattern on the name to include it as a field #<-- necessary for recap of info.-->
+Procedures to process data using R, necessary steps required before generating reports, recaps or to use as input for machine learning models. By the next cases, sometimes the data is taken from different sources, folders and files, sometimes the data is processed using a pattern on the name to include it as a field  #<-- necessary for recap of info.-->
 
 ___
 
 # 11 Split One Column into Two Fields
 
-Split one field with compounded data ('Practice...NPI') into two by using the function str_split_fixed (stringr) and a separator. In this example per each practice it was required to separate the National Provider Identifier (NPI) from the name.
+Split one field with compounded data ('Practice...NPI') into two by using the function str_split_fixed (stringr) and a separator. In this example, per each practice it was required to separate the National Provider Identifier (NPI) from the name.
 
 ## Initial Data
 ![11 Input](/images/DataProcess/11_Initial_Data_with_the_field_required_to_split.PNG){: width=100% }

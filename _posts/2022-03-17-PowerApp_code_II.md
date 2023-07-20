@@ -11,12 +11,6 @@ tags: [PowerApps, Code]
 Contents
 ========
 
-* [Screens_Diagram](#Screens_Diagram)
-* [Screen_0_Initial](#screen_0_initial)
-* [Screen_1_Rooms](#screen_1_rooms)
-* [Screen_2_SupplemRooms](#screen_2_supplemrooms)
-* [Screen_3_CaseDetails](#screen_3_casedetails)
-* [Screen_4_CasesList](#screen_4_caseslist)
 * [Screen_5_SwitchRooms](#screen_5_switchrooms)
 * [Screen_6_CasesTable](#screen_6_casestable)
 * [Screen_7_CasesNotes](#screen_7_casesnotes)
