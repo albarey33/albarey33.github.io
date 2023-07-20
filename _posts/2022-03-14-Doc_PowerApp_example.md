@@ -2,7 +2,7 @@
 title: "PowerApps - Example RECRUITMENT App  1. Documentation"      # subtitle: "Description of R Scripts for data processing."
 #author: Alejando BaRey          #layout: post
 date: 2023-03-14 10:00:00 -0500
-categories: [PowerApps, Recruitment App]
+categories: [PowerApps, Documentation]
 tags: [PowerApps Documentation]
 # background: '/img/posts/01.jpg'
 #pin: true check

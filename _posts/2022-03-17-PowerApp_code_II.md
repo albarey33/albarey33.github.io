@@ -2,8 +2,8 @@
 title: "PowerApps - RECRUITMENT App 2. Code Part II"      # subtitle: "Description of R Scripts for data processing."
 #author: Alejando BaRey          #layout: post
 date: 2023-03-15 10:00:00 -0500
-categories: [PowerApps, Recruitment App]
-tags: [PowerApps Code]
+categories: [PowerApps, Code]
+tags: [PowerApps, Code]
 # background: '/img/posts/01.jpg'
 #pin: true
 ---
