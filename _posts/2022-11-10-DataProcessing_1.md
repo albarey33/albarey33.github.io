@@ -1,5 +1,5 @@
 ---
-title: "Data Processing with R (Part 1)"      # subtitle: "Description of R Scripts for data processing."
+title: "Data Processing with R - Part 1"      # subtitle: "Description of R Scripts for data processing."
 #author: Alejando BaRey          #layout: post
 date: 2022-11-10 10:34:00 -0500
 categories: [Data Processing, R]
