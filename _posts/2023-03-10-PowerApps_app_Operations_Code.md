@@ -1,24 +1,21 @@
 ---
-title: "PowerApps - RECRUITMENT App 2. Code Part I"      # subtitle: "Description of R Scripts for data processing."
+title: "PowerApps - Recruitment App: Operations Code"      # subtitle: "Description of R Scripts for data processing."
 #author: Alejando BaRey          #layout: post
 date: 2023-03-10 10:00:00 -0500
-categories: [PowerApps, Code]
-tags: [PowerApps, Code]
+categories: [PowerApps, Operations_Code]
+tags: [PowerApps Operations Code]
 # background: '/img/posts/01.jpg'
+mermaid: true
 #pin: true
 ---
 
-Contents
-========
+Contents: List of Operations
+============================
 
-* [Screens_Diagram](#Screens_Diagram)
-* [Screen_0_Initial](#screen_0_initial)
-* [Screen_1_Rooms](#screen_1_rooms)
-* [Screen_2_SupplemRooms](#screen_2_supplemrooms)
-* [Screen_3_CaseDetails](#screen_3_casedetails)
-* [Screen_4_CasesList](#screen_4_caseslist)
-* [Screen_5_SwitchRooms](#screen_5_switchrooms)
-* [Screen_6_CasesTable](#screen_6_casestable)
+* [Unoccupied_Rooms](#Mark_Rooms_as_Unoccupied)
+* [Flagging Case with its Currently Working User](#Flagging_Case_with_its_Currently_Working_User)
+* [Prevent Two Users Working on Same Case](#Prevent_Two_Users_Working_on_Same_Case)
+* [How Get Recap Numbers](#How_Get_Recap_Numbers)
 * [Screen_7_CasesNotes](#screen_7_casesnotes)
 * [Screen_8_RecapsIntro](#screen_8_recapsintro)
     * [Screen_8.1_Tabulations](#screen_81_tabulations)
@@ -36,6 +33,39 @@ Contents
     * [Screen_10.3_NotAgreedNotEligible](#screen_103_notagreednoteligible)
     * [Screen_10.4_Names_Occupying_Rooms](#screen_104_names_occupying_rooms)
     * [Screen_10.5_DuplicatedMRNs](#screen_105_duplicatedmrns)
+
+
+```mermaid
+
+graph LR
+UseScreen_0_Initial-. follow .->UseScreen_1_Rooms
+UseScreen_0_Initial-. follow .->UseScreen_2_SupplemRooms
+UseScreen_0_Initial-. follow .->UseScreen_4_CasesList
+UseScreen_0_Initial-. follow .->UseScreen_5_SwitchRooms
+UseScreen_0_Initial-. follow .->UseScreen_6_CasesTable
+UseScreen_0_Initial-. follow .->UseScreen_7_CasesNotes
+UseScreen_0_Initial-. follow .->UseScreen_8_RecapsIntro  
+UseScreen_0_Initial-. follow .->UseScreen_9_Not_Delivered
+UseScreen_0_Initial-. follow .->UseScreen_10_Verification
+UseScreen_1_Rooms-. follow .->UseScreen_3_CaseDetails
+UseScreen_2_SupplemRooms-. follow .->UseScreen_3_CaseDetails
+UseScreen_4_CasesList-. follow .->UseScreen_3_CaseDetails
+UseScreen_8_RecapsIntro-. follow .->UseScreen_8.1_Recaps_Tabulations
+UseScreen_8_RecapsIntro-. follow .->UseScreen_8.2_Births_by_Counties
+UseScreen_8_RecapsIntro-. follow .->UseScreen_8.3_Medicaid_Months
+UseScreen_8.1_Recaps_Tabulations-. follow .->UseScreen_8.1.1_Detail_Eligibility
+UseScreen_8.1_Recaps_Tabulations-. follow .->UseScreen_8.1.2_Detail_Agreement
+UseScreen_8.1_Recaps_Tabulations-. follow .->UseScreen_8.1.3_Detail_HV_Scheduled
+UseScreen_8.1_Recaps_Tabulations-. follow .->UseScreen_8.1.4_Detail_TotalBirths
+UseScreen_8.3_Medicaid_Months-. follow .->UseScreen_8.4_Medicaid_Days
+UseScreen_10_Verification-. follow .->UseScreen_10.1_NotEligible
+UseScreen_10_Verification-. follow .->UseScreen_10.2_DeliveryDate_ScheduledHV
+UseScreen_10_Verification-. follow .->UseScreen_10.3_NotAgreedNotEligible
+UseScreen_10_Verification-. follow .->UseScreen_10.4_Delete_Names_Locking_Rooms
+UseScreen_10_Verification-. follow .->UseScreen_10.5_Duplicated_MRNs
+
+```
+
 
 
 
