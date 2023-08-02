@@ -5,6 +5,7 @@ date: 2023-03-05 10:00:00 -0500
 categories: [PowerApps, Documentation]
 tags: [PowerApps Documentation]
 # background: '/img/posts/01.jpg'
+pin: true
 mermaid: true
 #pin: true check
 ---
@@ -82,6 +83,31 @@ The different colors on the small left bar represent case statuses: green if the
 ![Rooms Today](/images/PowerApp_Recruitment/Rooms_Today.PNG){: width=100% }
 _Rooms Today_
 
+### Code Snippet: Filter a Gallery with values contained in a table.
+
+```
+//First a global variable _troomindex is created on the initial screen from the table with two fields: room and index.
+Set(_troomindex, Table(
+            {room:"8413", index:1}, {room:"8414", index:2}, {room:"8415", index:3}, {room:"8416", index:4}, 
+            {room:"8417", index:5}, {room:"8418", index:6}, {room:"8419", index:7}, {room:"8420", index:8}  ))
+
+// On the screen 'Rooms Today', OnVisible, a collection 'roomlist' will contain the rooms filtered from _troomindex
+// First an empty array is created
+ClearCollect(roomlist, [])
+//Then, loop through each row of the table and append the room value to the roomList array:
+ForAll(_troomindex, Collect(roomList, room));
+```
+
+
+
+
+The as an OnVisible property of the  a collection is filled with the elements filtered from _troomindex
+
+
+
+
+In order to The following code is an example of an operation that performs a conditional check to verify if the user has closed the room for a specific patient. It compares the 'room_occupied' value (Yes or No) when entering the form (EditRecord.RoomOccupied) to the value of the radio button (ToggleRoomYN.Value) at the moment of saving the changes. If the condition is True, the app creates a new case in the data while retaining the same room number.
+
 
 ## Process_Contact_and_Recruitment
 
@@ -95,6 +121,19 @@ Simultaneously, the previous records for those rooms are automatically marked as
 
 ![Form Details](/images/PowerApp_Recruitment/Form_Details.PNG){: width=100% }
 _Form Details_
+
+### Code Snippet for Operation: Swith Room to Unoccupied.
+
+The following code is an example of an operation that performs a conditional check to verify if the user has closed the room for a specific patient. It compares the 'room_occupied' value (Yes or No) when entering the form (EditRecord.RoomOccupied) to the value of the radio button (ToggleRoomYN.Value) at the moment of saving the changes. If the condition is True, the app creates a new case in the data while retaining the same room number.
+
+```
+// Comment: If Closing the Room, create a new case with new form
+If(EditRecord.RoomOccupied = "Y" && ToggleRoomYN.Value = false,
+// If condition is True
+UpdateContext({_newRecord: Patch(Data,Defaults(Data),
+{MotherName: "empty", RoomOccupied: "Y", Room: DCV_Room.Text, CaseReview_DD: _now })}) );
+```
+
 
 ## Cases_List_Screen
 
