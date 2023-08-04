@@ -1,4 +1,4 @@
 ---
-permalink: /Certificates/
-redirect_to: /certificatefiles/Certificates.html
+permalink: /Data_Science_Certificates/
+redirect_to: /certificatefiles/Data_Science_Certificates.html
 ---
