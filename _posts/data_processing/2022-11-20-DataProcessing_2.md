@@ -2,7 +2,7 @@
 title: "Data Processing with R - Part 2"      # subtitle: "Description of R Scripts for data processing."
 #author: AlBaRey          #layout: post
 date: 2022-11-20 10:00:00 -0500
-categories: [Data Processing, R]
+categories: [Data Processing]         # , R
 tags: [R, Dplyr, Data Processing, Data Analysis]
 # background: '/img/posts/01.jpg'
 #pin: true

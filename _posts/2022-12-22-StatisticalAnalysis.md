@@ -2,7 +2,7 @@
 title: "Statistical Analysis with R"  # subtitle: "Methods to Verify Hipothesis about samples vs populationsDescription of R Scripts for data processing."
 # author: BBR
 date: 2022-11-22 10:34:00 -0500
-categories: [Statistical Analysis, R]
+categories: [Statistical Analysis]            # , R
 tags: [Statistical Analysis, R]          # layout: post
 background: '/img/posts/01.jpg'
 ---
