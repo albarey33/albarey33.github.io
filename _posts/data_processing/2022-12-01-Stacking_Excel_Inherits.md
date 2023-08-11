@@ -3,9 +3,10 @@ title: "DP01 Stacking Excel files with Inherits"      # subtitle: "Description o
 #author: Alejando BaRey          #layout: post
 date: 2022-12-01 10:34:00 -0500
 categories: [Data Processing]    # , Merging Tables
-tags: [R, Dplyr, Stacking, Excel]
+tags: [R, Dplyr, Stacking, RegEx, Excel]
 # background: '/img/posts/01.jpg'
 #pin: true
+mermaid: true
 ---
 
 <!-- Reviewed 2023/08/08 -->
@@ -28,22 +29,35 @@ The provided R script begins by collecting Excel files with the same structure (
 
 ## Graphical Description of the Process
 
-![Mergin Files](/images/DataProcess/01_Merging_Excel_Filespng.PNG){: width="832" height="505" }    
-_<center>Merging Excel Files</center>_
+```mermaid
+
+flowchart LR
+Excel_File_01-- Stacking -->id1((R_Script))
+Excel_File_02-- Stacking -->id1((R_Script))
+Excel_File_03-- Stacking -->id1((R_Script))
+Excel_File_N-- Stacking  -->id1((R_Script))
+id1((R_Script))-->Resulting_DataFrame_CSV_file
+
+```
+
 
 
 ## Import files from source folder
 
-The script first create a list of the required Excel files names located in the source folder by using list.files and regex to define a pattern. 
+The script first create a list of the required Excel files names located in the source folder by using list.files and regular expression (RegEx) to define a pattern. 
 
 ```R
 filenames_list <- list.files(path= path, full.names=TRUE, 
-                 pattern=paste0("^Patient.*?",currPPL,"_1000pts.xlsx"))
+                 pattern=paste0("^Patient.*?",currPPL,"_1000pts.xlsx"))   # pattern using RegEx
 ```
+
+## Merging Excel files with equal structure with Inherits
+
+In certain situations, when data is imported and fields have no values, R may mistakenly assume them to be of 'logical' type instead of 'character', causing conflicts during stacking. To circumvent this, for convenience, the defined function employs the 'inherits' function to inspect all fields and convert any logical types to character types. The outcome is a vector containing all the types.
 
 ## Function Definition
 
-Then a function that includes readxl::read_excel(filename) is defined to read the data inside the Excel files, creating tibbles (data tables). For convenience, the defined function also converts the logical type fields to character type using "inherits". 
+A function that includes readxl::read_excel(filename) is defined to read the data inside the Excel files, creating tibbles (data tables).  
 
 ```R
 # * 2.1 Function: Read Excel files with equal structure --------

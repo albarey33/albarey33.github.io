@@ -1,22 +1,23 @@
 ---
-title: "DP07 Join two Tables for Classification by Type of Practices"      # subtitle: "Description of R Scripts for data processing."
+title: "DP07 Joining two Tables - Left Join"      # subtitle: "Description of R Scripts for data processing."
 #author: Alejando BaRey          #layout: post
 date: 2022-12-07 10:34:00 -0500
 categories: [Data Processing]             # , Other Procedures
-tags: [R, Dplyr]
+tags: [R, Dplyr, Joining]
 # background: '/img/posts/01.jpg'
 #pin: true
 ---
 
 ## Description
 
-Another example of relational data tables. This script shows also a method to imputate values, but in this case the table that contains the data to update, let's say new names, doesn't come from a table hardcoded in the same script, but it is imported. In this example we assign a classification of practices by type: Family, Pediatric, etc. The way to imputate the values in this script is using left_join.
+This script provides an example of working with relational data tables and demonstrates a method for imputing values. Unlike previous cases where data was hardcoded within the script, this example involves importing a table containing data to be updated, such as practices type: Family, Pediatric, etc. Imputation of values is achieved using the left_join function.
+
 
 ## Link to the Complete Script in Github
 [R Script - Join two Tables](https://github.com/albarey33/Data_Analysis_R/blob/main/07%20Join%20two%20Tables%20for%20Classification%20by%20Type%20of%20Practices.R)
 
 
-## List of Patients and Practices. View of first 10 from a list of 3000.
+## Data: List of Patients and Practices. View of first 10 from a list of 3000.
 ![07 Results](/images/DataProcess/07_First_10_Pts_w_Practices_Previous.PNG){: width=100% }   <!--# {: width="550" height="350" }-->
 _List of Patients and Practices_
 

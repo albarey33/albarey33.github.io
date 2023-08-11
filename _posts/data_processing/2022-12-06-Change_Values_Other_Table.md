@@ -3,19 +3,28 @@ title: "DP06 Change Values based on External Table"      # subtitle: "Descriptio
 #author: Alejando BaRey          #layout: post
 date: 2022-12-06 10:34:00 -0500
 categories: [Data Processing]             # , Other Procedures
-tags: [R, Dplyr]
+tags: [R, Dplyr, Imputation]
 # background: '/img/posts/01.jpg'
 #pin: true
 ---
 
 ## Description
 
-Similar to Match Index in Excel, with this script data is taken from another table to apply to specific records using a common key on these two tables. In this example we update the names of practices which come with outdated names from the source. The new names are kept in a specific table, created inside the script (hardcoded). This is also known as imputation of values. In this script a specific function was coded with the function "match" (base).
+There are situations when certain fields require updates using information gathered from another table. Similar to Excel's Match & Index feature, data is extracted from another table and applied to specific records through a common key shared by both tables. In this example, we update the names of practices that have outdated entries from the source. These new names are stored in a dedicated table, which is created within the script (hardcoded). This process is commonly referred to as value imputation. Within this script, a specific function has been coded utilizing the 'match' function from the base package.
 
 ## Link to the Complete Script in Github
 [R Script - Change Values based on External Table](https://github.com/albarey33/Data_Analysis_R/blob/main/06%20Change%20Values%20based%20on%20External%20Table%20-%20Match%20Index.R)
 
+## Table with the Names to Change
 
+| OriginalName                                 | ChangedName                                     |
+|-----------------------------------------------|-------------------------------------------------|
+| CAPE FEAR FAMILY MEDICAL CARE 2344 WALTER REED | CAPE FEAR FAMILY MED CARE                       |
+| CAPE FEAR FAMILY MEDICAL CARE 543 OWEN DR      | CAPE FEAR FAMILY MED CARE                       |
+| CAPE FEAR FAMILY MEDICAL CARE 465 OWEN DR      | CAPE FEAR FAMILY MED CARE                       |
+| CAROLINA RHEUMATOLOGY AND INTERNAL MEDICINE    | CAPE FEAR VALLEY PRIMARY CARE                   |
+| FAYETTEVILLE GERIATRIC & INTERNAL MEDICINE     | CAROLINA PRIMARY & INTERNAL MEDICINE            |
+| WADE FAMILY MEDICAL CENTER                     | WADE HEALTH SERVICES                            |
 
 ## Detail of info Previous to Imputation.
 
@@ -24,6 +33,9 @@ _Result: Comparison of Differences_
 
 
 ## Function for Imputation.
+
+For each value in the OriginalName, the function iterates through the DataFrame to find matching values and replaces each of these values with its corresponding ChangedName value.
+
 ```R
 fx_change_Practice_Names <- function(PCP_field_name, df, dfChanges){
   LocPCP <- match(PCP_field_name,names(df))

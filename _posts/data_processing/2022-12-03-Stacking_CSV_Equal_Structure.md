@@ -3,9 +3,10 @@ title: "DP03 Stacking CSV Data Files with Equal Structure"      # subtitle: "Des
 #author: Alejando BaRey          #layout: post
 date: 2022-12-03 10:34:00 -0500
 categories: [Data Processing]    # , Merging Tables
-tags: [R, Dplyr, Stacking Tables, CSV]         # Data Processing, 
+tags: [R, Dplyr, Stacking, CSV]         # Data Processing, 
 # background: '/img/posts/01.jpg'
 #pin: true
+mermaid: true
 ---
 
 ## Description 
@@ -19,6 +20,22 @@ The provided R script begins by collecting CSV files with the same structure (fi
 ## Link to the Complete Script in Github
 [R Script - Stacking CSV files with equal structure](https://github.com/albarey33/Data_Analysis_R/blob/main/03%20Merging%20CSV%20files%20equal%20structure.R)
 
+
+## Graphical Description of the Process
+
+<!--![Mergin Files](/images/DataProcess/01_Merging_Excel_Filespng.PNG){: width="832" height="505" }    
+_<center>Merging Excel Files</center>_ -->
+
+```mermaid
+
+flowchart LR
+CSV_File_01-- Stacking -->id1((R_Script))
+CSV_File_02-- Stacking -->id1((R_Script))
+CSV_File_03-- Stacking -->id1((R_Script))
+CSV_File_N-- Stacking  -->id1((R_Script))
+id1((R_Script))-->Resulting_DataFrame_CSV_file
+
+```
 
 ## Function Definition
 

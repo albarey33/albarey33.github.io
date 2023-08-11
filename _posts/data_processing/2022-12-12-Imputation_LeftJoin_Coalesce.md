@@ -1,9 +1,9 @@
 ---
-title: "DP12 Inputation using LeftJoin and Coalesce"      # subtitle: "Description of R Scripts for data processing."
+title: "DP12 Imputation using LeftJoin and Coalesce"      # subtitle: "Description of R Scripts for data processing."
 #author: AlBaRey          #layout: post
 date: 2022-12-12 10:00:00 -0500
 categories: [Data Processing]         # , R
-tags: [R, Dplyr, Inputation, Data Analysis]
+tags: [R, Dplyr, Imputation, Data Analysis]
 # background: '/img/posts/01.jpg'
 #pin: true
 ---

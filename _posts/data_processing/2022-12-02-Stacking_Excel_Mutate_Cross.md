@@ -6,6 +6,7 @@ categories: [Data Processing]    # , Merging Tables
 tags: [R, Dplyr, Stacking, Excel]
 # background: '/img/posts/01.jpg'
 #pin: true
+mermaid: true
 ---
 
 <!-- Reviewed 2023/08/08 -->
@@ -22,6 +23,22 @@ The provided R script begins by collecting Excel files with the same structure (
 ## Link to the Complete Script in Github
 [R Script - Merge Excel Files with Mutate Across](https://github.com/albarey33/Data_Analysis_R/blob/main/02%20Merging%20Excel%20files%20with%20equal%20structure%20with%20mutate%20across.R)
 
+
+## Graphical Description of the Process
+
+<!--![Mergin Files](/images/DataProcess/01_Merging_Excel_Filespng.PNG){: width="832" height="505" }    
+_<center>Merging Excel Files</center>_ -->
+
+```mermaid
+
+flowchart LR
+Excel_File_01-- Stacking -->id1((R_Script))
+Excel_File_02-- Stacking -->id1((R_Script))
+Excel_File_03-- Stacking -->id1((R_Script))
+Excel_File_N-- Stacking  -->id1((R_Script))
+id1((R_Script))-->Resulting_DataFrame_CSV_file
+
+```
 
 ## Merging Excel files with equal structure with mutate across
 
@@ -58,10 +75,6 @@ fx_readfiles <- function(filename){
   }
 
 ```
-
-
-
-
 
 __
 

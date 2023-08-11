@@ -10,13 +10,18 @@ tags: [R, Dplyr]
 
 ## Description
 
-For only the fields related to medical conditions in the data, the empty or N/A values are replaced by the value "No". The reason of this change is to use the "Yes"/"No" for a later presentation in a PowerBI chart. These changes are applied using dplyr functions mutate and case_when.
+When dealing with situations where a common transformation needs to be applied to multiple fields, the following script applies a method, often referred to as Batch Transformation.
+
+In this scenario, the script focuses on fields related to medical conditions within the dataset. It addresses the issue of empty "" or N/A values by replacing them with the value "No." This alteration serves the purpose of using "Yes" or "No" values for subsequent visualizations in a PowerBI chart. The transformations are executed using Dplyr functions mutate and Case_When.
 
 ## Link to the Complete Script in Github
 [R Script - Apply changes to Medical Condition fields](https://github.com/albarey33/Data_Analysis_R/blob/main/09%20Apply%20changes%20to%20Medical%20Condition%20fields.R)
 
 
-## Initial Values
+## Initial Data Format for the group of Fields
+
+Identify the specific location within the dataset where the transformation needs to be performed. This applies specifically to the Medical Conditions fields.
+
 ![09 Input Format](/images/DataProcess/09_Medical_Conditional_original_format.PNG){: width=100% }   <!--# {: width="550" height="350" }-->
 _Original Structure of values for Medical Conditions_
 
@@ -26,7 +31,10 @@ PPL_df[,RangeConditions][PPL_df[,RangeConditions]==""] <- "No"
 PPL_df[,RangeConditions][is.na(PPL_df[,RangeConditions])] <- "No"
 ```
 
-Other method for multiple replacement. Example for only "Dual" field
+## Another approach for multiple replacements with mutate and case_when 
+
+Example for only "Dual" field
+
 ```R
 PPL_df %>% mutate(Dual = case_when(Dual == ""    ~ "No", 
                                    Dual == "YES" ~ "Yes"))
