@@ -3,7 +3,7 @@ title: "DP15 Examples BarPlots ggplot"      # subtitle: "Description of R Script
 #author: AlBaRey          #layout: post
 date: 2022-12-15 10:00:00 -0500
 categories: [Data Processing]         # , R
-tags: [R, Dplyr, Data Analysis]
+tags: [R, ggplot]
 # background: '/img/posts/01.jpg'
 #pin: true
 ---
@@ -11,12 +11,12 @@ tags: [R, Dplyr, Data Analysis]
 
 ## Description
 
-This charts show the changes in the population enrollment, the ED, IP Visits and Readmissions in the previous 12 months. There were used either barplots or ggplot, geom_bar to compare both.  
+In this post, there are charts that show variations in data using bar plots. The first one utilizes the bar plot from the base package, and finally, the ggplot barplot is presented. In the present example, the data corresponds to population enrollment, Emergency Department (ED) visits, Inpatient (IP) visits, and readmissions over the past 12 months.
 
 ## Link to the Complete Script in Github
 [R Script - Examples BarPlots ggplot](https://github.com/albarey33/Data_Analysis_R/blob/main/15%20Examples%20BarPlots%20ggplot.R)
 
-## Charts
+## Initial Data
 
 ![15 Initial Data](/images/DataProcess/15_Data_to_use_in_BarPlots.PNG){: width=100% }
 _Initial Data: Recap of Members, ED Visits, IP Visits, Readmissions, by Months_

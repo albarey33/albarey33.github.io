@@ -3,15 +3,14 @@ title: "DP13 Match Replace Pattern ReGex"      # subtitle: "Description of R Scr
 #author: AlBaRey          #layout: post
 date: 2022-12-13 10:00:00 -0500
 categories: [Data Processing]         # , R
-tags: [R, Dplyr, Data Analysis]
+tags: [R, Dplyr, RegEx]
 # background: '/img/posts/01.jpg'
 #pin: true
 ---
 
-
 ## Description
 
-One example of application of regular expressions to change the date format.
+This script is designed to address instances where imported data is presented in a modified format, including date values accompanied by unnecessary time components such as the default 12:00 time. The script employs regular expressions to efficiently eliminate these unnecessary time values, resulting in a refined dataset with only the essential date information. Through the application of regular expressions, the script extracts and retains the date component while discarding the superfluous time details.
 
 ## Link to the Complete Script in Github
 [R Script - Match Replace Pattern ReGex](https://github.com/albarey33/Data_Analysis_R/blob/main/13%20Match%20Replace%20Pattern%20ReGex.R)

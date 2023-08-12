@@ -1,18 +1,22 @@
 ---
-title: "DP10 Matrix Counter of Member Months"      # subtitle: "Description of R Scripts for data processing."
+title: "DP10 Matrix Counter using Melt Dcast"      # subtitle: "Description of R Scripts for data processing."
 #author: Alejando BaRey          #layout: post
 date: 2022-12-10 10:34:00 -0500
 categories: [Data Processing]             # , Other Procedures
-tags: [R, Dplyr]
+tags: [R, Dplyr, Melt - Dcast]
 # background: '/img/posts/01.jpg'
 #pin: true
 ---
 
 ## Description 
 
-Matrix Counter of Member Months using Melt DCast (equivalent to Pivot tables)
+**Script:** Matrix Counter using Melt DCast (equivalent to Pivot tables)
 
-This code calculates the number of months each patient was enrolled in the 12 months previous to an specific months. For ilustration, this script shows a calculation for only the enrollment month and the previous one. So a patient can have one or two member-months. The data comes in just two fields: Period and MID (patient identifier). The functions melt and dcast (equivalent of pivot tables) are used to convert the data into a table MID vs Period.
+**Example:** Enrollment Member-Months
+
+This script computes the count of months each patient was enrolled in during the 12 months preceding a specific month. For illustrative purposes, the script focuses on calculating member months for the enrollment month and the one immediately prior. As a result, each patient can have either one or two member-months. The dataset consists of two crucial fields: "Period" and "MID" (patient identifier). Leveraging the functionalities of the melt and dcast functions (similar to Excel pivot tables), the data transformation occurs, converting the data into a structured table that compares patients (MID) against their enrollment periods (Period).
+
+
 
 ## Link to the Complete Script in Github
 
@@ -57,9 +61,12 @@ for(i in 2:nrow(dfPeriod)){
 ```
 
 ## Final Result of Script
+
 ![10 Results](/images/DataProcess/10_Final_Results_Calculated_MemberMonths.PNG){: width=100% }   <!--# {: width="550" height="350" }-->
 _Calculated Member Months_
 
+
+The resulting table shows the MbMos, reflecting the initial matrix source. For patient 7004R, the 2 MbMos mean that they were enrolled in 202102 and in the previous month, 202101. The patient 9265T, in period 202103, has 1 MbMos because they were enrolled in 202102 but not in 202103... and so on.
 
 __
 
