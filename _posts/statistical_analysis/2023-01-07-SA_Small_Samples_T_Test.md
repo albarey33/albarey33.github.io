@@ -1,13 +1,13 @@
 ---
-title: "Statistical Analysis with R"  # subtitle: "Methods to Verify Hipothesis about samples vs populationsDescription of R Scripts for data processing."
-# author: BBR
-date: 2022-11-22 10:34:00 -0500
+title: "SA01 Statistical Analysis Small Samples T-Test"  # subtitle: "Methods to Verify Hipothesis about samples vs populationsDescription of R Scripts for data processing."
+# author: BABR
+date: 2023-01-07 10:34:00 -0500
 categories: [Statistical Analysis]            # , R
-tags: [Statistical Analysis, R]          # layout: post
+tags: [R]          # layout: post
 background: '/img/posts/01.jpg'
 ---
 
-## 01 Statistical Analysis Small Samples T-Test.R
+## SA01 Statistical Analysis Small Samples T-Test.R
 
 [R Script - Merge Excel Files with Inherits](https://github.com/albarey33/Data_Analysis_R/blob/main/01%20Merging%20Excel%20files%20with%20equal%20structure%20with%20inherit.R)
 

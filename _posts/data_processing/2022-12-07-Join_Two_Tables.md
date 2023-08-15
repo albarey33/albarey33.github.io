@@ -3,7 +3,7 @@ title: "DP07 Joining two Tables - Left Join"      # subtitle: "Description of R 
 #author: Alejando BaRey          #layout: post
 date: 2022-12-07 10:34:00 -0500
 categories: [Data Processing]             # , Other Procedures
-tags: [R, Dplyr, Joining]
+tags: [R, Dplyr, Joining Tables]
 # background: '/img/posts/01.jpg'
 #pin: true
 ---
