@@ -13,12 +13,9 @@ background: '/img/posts/01.jpg'
 
 <!--- #### Brief Description: --->
 
-The purpose of this script is to import data on parts (whenever there are limitations to get data) and integrate them into one CSV file. The script first create a list of the required Excel files names located in the source folder by using list.files and regex to define a pattern. Then a function that includes readxl::read_excel(filename) is defined to read the data inside the Excel files, creating tibbles (data tables). For convenience, the defined function also converts the logical fields to character using "inherits". Finally the tibbles are merged into one CSV using do.call bind_rows.
-
-
 ___
 
-## 02 Statistical Analysis Binomial Random Sample.R
+## SA02 Statistical Analysis Binomial Random Sample.R
 
 [R Script - Merge Excel Files with Mutate Across](https://github.com/albarey33/Data_Analysis_R/blob/main/02%20Merging%20Excel%20files%20with%20equal%20structure%20with%20mutate%20across.R)
 
