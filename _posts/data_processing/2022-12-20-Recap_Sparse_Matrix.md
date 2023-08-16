@@ -153,9 +153,6 @@ Results: ID of 8 patients
 _<center>Detail of 8 patients</center>_
 
 
-Result: Data Table - Recap of Patients per Month
-![20 Example Line Chart](/images/DataProcess/20_Aggregation_Variables_Months.PNG){: width=100% }
-_<center>All Variables - All variables </center>_
 
 __
 

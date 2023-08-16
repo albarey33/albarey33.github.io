@@ -1,9 +1,9 @@
 ---
-title: "SA02 Two Samples T-Test"  # subtitle: "Methods to Verify Hipothesis about samples vs populationsDescription of R Scripts for data processing."
+title: "SA02 Two Samples T-Test (PENDING)"  # subtitle: "Methods to Verify Hipothesis about samples vs populationsDescription of R Scripts for data processing."
 # author: BABR
 date: 2023-01-08 10:34:00 -0500
 categories: [Statistical Analysis]            # , R
-tags: [R,T-Test]          # layout: post
+tags: [R, T-Test]          # layout: post
 # background: '/img/posts/01.jpg'
 ---
 

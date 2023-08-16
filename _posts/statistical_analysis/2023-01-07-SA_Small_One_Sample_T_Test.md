@@ -1,5 +1,5 @@
 ---
-title: "SA01 One Sample T-Test"  # subtitle: "Methods to Verify Hipothesis about samples vs populationsDescription of R Scripts for data processing."
+title: "SA01 One Sample T-Test (PENDING)"  # subtitle: "Methods to Verify Hipothesis about samples vs populationsDescription of R Scripts for data processing."
 # author: BABR
 date: 2023-01-07 10:34:00 -0500
 categories: [Statistical Analysis]            # , R
