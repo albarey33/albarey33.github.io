@@ -2,7 +2,7 @@
 title: "PowerApps - 01 Newborns Follow-up"      # subtitle: "Description of R Scripts for data processing."
 #author: Alejando BaRey          #layout: post
 date: 2023-03-05 10:00:00 -0500
-categories: [PowerApps, "01 Newborns Follow-up"]
+#categories: [PowerApps]
 tags: [PowerApps Code]
 # background: '/img/posts/01.jpg'
 pin: false
