@@ -3,7 +3,7 @@ title: "SA01 One Sample T-Test"  # subtitle: "Methods to Verify Hipothesis about
 # author: BABR
 date: 2023-01-07 10:34:00 -0500
 categories: [Statistical Analysis]            # , R
-tags: [R, T-Test]          # layout: post
+tags: [R, T-Test, ggplot]          # layout: post
 # background: '/img/posts/01.jpg'
 ---
 
@@ -11,7 +11,7 @@ A T-Test is a statistical hypothesis test used to determine if the mean of a sam
 
 This post demonstrates the application of a T-Test statistical analysis to evaluate the results of three recruiters who contact mothers of newborn babies to obtain their agreement for a future follow-up. The evaluation focuses on the proportion of patients agreeing to the follow-up (home visit) for each recruiter. This evaluation specifically targets eligible patients living within the coverage area.
 
-## SA01 Statistical Analysis Small Samples T-Test.R
+## Link to the Complete Script in Github
 
 [R Script - One Sample T-Test](https://github.com/albarey33/Statistical_Analysis_R/blob/main/SA01%20One_Sample_T-Test%20FC_Recruitment.R)
 
@@ -114,7 +114,7 @@ The above code generates the following chart:
 ![Hist_Density_Plot](/images/Statistical/SA01/Rplot_Hist_Density_Percent_Agreement.PNG){: width=100% }
 _Rplot_Hist_Density_Percent_Agreement_
 
-The graph allows us to visualize that the distribution of CM03 for recruiter 3 is skewed more to the left.
+The graph allows us to visualize that the distribution of CM03 for recruiter 3 is skewed more to the left. The vertical red line is the previously calculated population agreement average: 83.16%
 
 
 ## HYPOTHESIS TESTING - NULL HYPOTHESES: INDIVIDUAL RESULTS ARE NOT LESS THAN THE HISTORICAL AVERAGE
