@@ -91,6 +91,32 @@ _Results Recruiter 2_
 _Results Recruiter 3_
 
 
+## HISTOGRAM AND DENSITY PLOT OF PERCENTAGES OF AGREEMENT
+
+Use the following code to visualize the distribution of results per recruiter:
+
+```R
+
+combo <- rbind(dfCM01, dfCM02, dfCM03)
+
+# Combine Histogram and Density Plots for Percentages of Agreement
+ggplot(combo, aes(PercentAgreed, fill = UserEmail)) +
+  scale_fill_manual(values=c("blue", "darkgreen", "orange")) +
+  geom_histogram(alpha=0.7, binwidth=0.01, position="identity") +
+  geom_density(alpha = 0.2) +
+  geom_vline(xintercept = 0.83166, size = 0.01, color = "red") + 
+  ggtitle("Combined Histogram and Density Plots for Percentages of Agreement")
+
+```
+
+The above code generates the following chart:
+
+![Hist_Density_Plot](/images/Statistical/SA01/Rplot_Hist_Density_Percent_Agreement.PNG){: width=100% }
+_Rplot_Hist_Density_Percent_Agreement_
+
+The graph allows us to visualize that the distribution of CM03 for recruiter 3 is skewed more to the left.
+
+
 ## HYPOTHESIS TESTING - NULL HYPOTHESES: INDIVIDUAL RESULTS ARE NOT LESS THAN THE HISTORICAL AVERAGE
 
 The Null hypothesis stated in this case is that the results showed by the recruiters aren't significantly lower than the historical average previously calculated. Confidence Level: 95%. Significance Level: 0.05
