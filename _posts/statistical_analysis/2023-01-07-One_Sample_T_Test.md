@@ -145,7 +145,7 @@ The p-value (0.5268) is greater than the significance level (α = 0.05), suggest
 The p-value (0.1428) is greater than the significance level (α = 0.05), indicating that <b>there is not enough evidence to reject the null hypothesis.</b> The null hypothesis is that the true mean of the population is greater than or equal to 0.8316676. The confidence interval ( -Inf, 0.8527055 ) includes values greater than 0.8316676. Therefore, we don't have evidence to conclude that the true mean is less than 0.8316676.
 
 ### Recruitment 3:
-The p-value (0.01543) is less than the significance level (α = 0.05), indicating that <b>we have evidence to reject the null hypothesis.</b> The null hypothesis is that the true mean of the population is greater than or equal to 0.8316676. The confidence interval ( -Inf, 0.8142884 ) also includes values less than 0.8316676. Therefore, we have evidence to conclude that the true mean is less than 0.8316676.
+The p-value (0.01543) is less than the significance level (α = 0.05), indicating that <b>we have evidence to reject the null hypothesis.</b> The null hypothesis is that the true mean of the population is greater than or equal to 0.8316676. The confidence interval ( -Inf, 0.8142884 ) does not encompass the overall average value of 0.8316676. Therefore, we have evidence to conclude that the true mean is less than 0.8316676.
 
 
 
