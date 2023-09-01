@@ -1,6 +1,6 @@
 ---
 title: "DP06 Change Values based on External Table"      # subtitle: "Description of R Scripts for data processing."
-#author: Alejando BaRey          #layout: post
+# author: BABR #author: Alejando BaRey          #layout: post
 date: 2022-12-06 10:34:00 -0500
 categories: [Data Processing]             # , Other Procedures
 tags: [R, Dplyr, Imputation]

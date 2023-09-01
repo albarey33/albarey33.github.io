@@ -1,6 +1,6 @@
 ---
 title: "DP18 Merge multiple fields of Labels"
-#author: AlBaRey          #layout: post
+# author: BABR #author: AlBaRey          #layout: post
 date: 2022-12-18 10:00:00 -0500
 categories: [Data Processing]         # , R
 tags: [R, RegEx]
