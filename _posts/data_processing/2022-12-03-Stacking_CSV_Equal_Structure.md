@@ -1,5 +1,5 @@
 ---
-title: "DP03 Stacking CSV Data Files with Equal Structure"      # subtitle: "Description of R Scripts for data processing."
+title: "DP03 Stacking CSV Data Files with Equal Structure"      # subtitle: "Description of R Scripts"
 # author: BABR #author: Alejando BaRey          #layout: post
 date: 2022-12-03 10:34:00 -0500
 categories: [Data Processing]    # , Merging Tables

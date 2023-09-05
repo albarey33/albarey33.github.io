@@ -1,5 +1,5 @@
 ---
-title: "DP09 Apply changes to Filtered Group of Records"      # subtitle: "Description of R Scripts for data processing."
+title: "DP09 Apply changes to Filtered Group of Records"      # "Description of R Scripts for data processing."
 # author: BABR #author: Alejando BaRey          #layout: post
 date: 2022-12-09 10:34:00 -0500
 categories: [Data Processing]             # , Other Procedures
