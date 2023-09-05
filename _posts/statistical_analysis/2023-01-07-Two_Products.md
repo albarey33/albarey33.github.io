@@ -21,12 +21,14 @@ Contents
 * Comparative Statistics
 * Associative Statistics
 * Predictive Statistics
+
+<!--
 * [Read_Data_CSV_file](#Read Data CSV file)    <a name="Back_to_Contents">BTC</a>
 * [Descriptive_SB_Statistics](#Descriptive Statistics)
 * [Comparative_Statistics](#Comparative Statistics)
 * [Associative_SB_Statistics](#Associative Statistics)
 * [Predictive_SB_Statistics](#Predictive Statistics)
-
+-->
 
 <!--- #### Brief Description: --->
 
