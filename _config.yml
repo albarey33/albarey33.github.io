@@ -38,11 +38,11 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: BABR # Anse Data Services # BABR
-  email: albareydata@gmail.com # change to your email address
+  email: anse@ansedataservices.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://www.linkedin.com/in/albarey
     - https://github.com/albarey33 # change to your github homepage
+    # - https://www.linkedin.com/in/albarey
     # - https://twitter.com/ansedataserv13 # change to your twitter homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
