@@ -1,6 +1,6 @@
 ---
 title: "DP08 Apply changes to Group of Fields using RegEx"      # "Description of R Scripts for data processing."
-# author: BABR #author: Alejando BaRey          #layout: post
+# author: BABR #author: AlBaRey          #layout: post
 date: 2022-12-08 10:34:00 -0500
 categories: [Data Processing]             # , Other Procedures
 tags: [R, Dplyr, RegEx]

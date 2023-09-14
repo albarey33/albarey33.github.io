@@ -1,6 +1,6 @@
 ---
 title: "DP10 Matrix Counter using Melt Dcast"      # subtitle: "Description of R Scripts for data processing."
-# author: BABR #author: Alejando BaRey          #layout: post
+# author: BABR #author: AlBaRey          #layout: post
 date: 2022-12-10 10:34:00 -0500
 categories: [Data Processing]             # , Other Procedures
 tags: [R, Dplyr, Melt - Dcast]

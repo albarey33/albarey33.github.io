@@ -1,6 +1,6 @@
 ---
 title: "DP04 Stacking CSV Data Files with Different Structure"      # subtitle: "Description of R Scripts for data processing."
-# author: BABR #author: Alejando BaRey          #layout: post
+# author: BABR #author: AlBaRey          #layout: post
 date: 2022-12-04 10:34:00 -0500
 categories: [Data Processing]    # , Merging Tables
 tags: [R, Dplyr, Stacking, Comparing, CSV]         # Data Processing, 

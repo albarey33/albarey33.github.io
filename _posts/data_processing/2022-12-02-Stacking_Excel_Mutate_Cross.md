@@ -1,6 +1,6 @@
 ---
 title: "DP02 Stacking Excel with Mutate Cross"      # subtitle: "Description of R Scripts for data processing."
-# author: BABR #author: Alejando BaRey          #layout: post
+# author: BABR #author: AlBaRey          #layout: post
 date: 2022-12-02 10:34:00 -0500
 categories: [Data Processing]    # , Merging Tables
 tags: [R, Dplyr, Stacking, Excel]

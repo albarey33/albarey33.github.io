@@ -1,6 +1,6 @@
 ---
 title: "DP22 Merge data Interactions_All_Periods"      # subtitle: "Description of R Scripts for data processing."
-#author: Alejando BaRey          #layout: post
+#author: AlBaRey          #layout: post
 date: 2022-12-22 10:24:00 -0500
 categories: [Data Processing]            # , R
 tags: [R, Dplyr, Data Processing, Data Analysis]
@@ -19,7 +19,7 @@ It collects all the weeks saved with the previous script. It collects and applie
 
 ## 22.1 Explanations Merge data Interactions_All_Periods.R
 
-[R Script weeks saved with the previous script. It collects and applies all the previous scripts. The resulting CSV files serve as sources for other procedures and for PowerBI dashboards.
+R Script weeks saved with the previous script. It collects and applies all the previous scripts. The resulting CSV files serve as sources for other procedures and for PowerBI dashboards.
 
 
 

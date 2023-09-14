@@ -1,6 +1,6 @@
 ---
 title: "DP21 Read Weekly Data of Interactions"      # subtitle: "Description of R Scripts for data processing."
-#author: Alejando BaRey          #layout: post
+#author: AlBaRey          #layout: post
 date: 2022-12-21 10:24:00 -0500
 categories: [Data Processing]            # , R
 tags: [R, Dplyr, Data Analysis]

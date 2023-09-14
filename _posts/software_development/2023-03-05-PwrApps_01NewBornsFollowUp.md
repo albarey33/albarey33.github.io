@@ -1,6 +1,6 @@
 ---
 title: "PA01 Newborns Follow-up"      # subtitle: "Description of R Scripts for data processing."
-# author: BABR            #author: Alejando BaRey          #layout: post
+# author: BABR            #author: AlBaRey          #layout: post
 date: 2023-03-05 10:00:00 -0500
 categories: [Software Development]
 tags: [PowerApps Code]

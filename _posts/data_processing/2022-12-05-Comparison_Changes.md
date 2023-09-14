@@ -1,6 +1,6 @@
 ---
 title: "DP05 Comparison and Changes between Two Periods"    #  05  # subtitle: "SUBTITLE it doesn't work for chirpy."
-# author: BABR #author: Alejando BaRey          #layout: post
+# author: BABR #author: AlBaRey          #layout: post
 date: 2022-12-05 10:34:00 -0500
 categories: [Data Processing]             # , Other Procedures
 tags: [R, Dplyr, Comparing, Mining]
