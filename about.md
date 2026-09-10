@@ -5,9 +5,14 @@ description: About
 bodyClass: page-about
 ---
 
-Lorem markdownum aequalis strigis. _Saetigeri iubeas_, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
-crimen habet Priamum nec.
+About ANSE Data Services
+
+ANSE Data Services helps organizations make work simpler, data more useful, and systems more effective.
+
+With 30+ years of experience working with data and hands-on Microsoft Power Platform expertise, we focus on understanding the business process first—then applying practical solutions to improve it.
+
+Better processes. Better information. Better results.
+
 
 ![Accounting Services](/images/thom-holmes-Lrfw0U_o9I0-unsplash.jpg)
 
