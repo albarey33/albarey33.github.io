@@ -1,12 +1,16 @@
 ---
-title: "Superannuation"
-date: 2019-03-28T15:14:54+10:00
+title: "Build & Modernize"
+date: 2026-09-09T15:14:54+10:00
 weight: 5
 ---
 
-Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
-crimen habet Priamum nec.
+Build & Modernize
+
+Do your systems no longer fit the way you work?
+
+Replace workarounds and disconnected tools with practical business solutions designed around your actual processes.
+
+Custom Business Solutions →
 
 ![Accounting Services](/images/austin-distel-nGc5RT2HmF0-unsplash.jpg)
 
