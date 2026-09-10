@@ -1,5 +1,5 @@
 ---
-title: "Automate & Simplify"
+title: "Automate and Simplify"
 date: 2026-09-09T15:14:39+10:00
 weight: 4
 ---

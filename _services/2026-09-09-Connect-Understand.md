@@ -1,5 +1,5 @@
 ---
-title: "Connect & Understand"
+title: "Connect and Understand"
 date: 2026-09-09T15:15:26+10:00
 weight: 2
 ---

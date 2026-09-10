@@ -1,5 +1,5 @@
 ---
-title: "Build & Modernize"
+title: "Build and Modernize"
 date: 2026-09-09T15:14:54+10:00
 weight: 5
 ---
