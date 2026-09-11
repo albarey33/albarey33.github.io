@@ -7,7 +7,7 @@ logo:
   mobile_height: "32px"
   mobile_width: "32px"
   desktop: "images/logo/logo_anse_transparent.png"
-  desktop_height: "32px"
+  desktop_height: "120px"    #  "32px"
   desktop_width: "120px"
 
 home: 
