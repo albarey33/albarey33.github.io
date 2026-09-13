@@ -75,7 +75,7 @@ For example the site https://zerostaticthemes.github.io/jekyll-serif-theme would
 ### License
 
 - You cannot create ports of this theme
-- You cannot re-sell this theme
+- You cannot re-sell this theme - You cannot re-sell this theme
 
 ### Credits
 
