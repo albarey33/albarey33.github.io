@@ -2,7 +2,7 @@
 title: Jekyll Serif Theme
 layout: home
 description: ANSE Description - Home Page
-intro_image: "images/illustrations/efficiency.png"
+intro_image: "images/illustrations/efficiency2.png"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 show_call_box: true
