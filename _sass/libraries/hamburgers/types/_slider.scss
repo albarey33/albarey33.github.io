@@ -28,7 +28,7 @@
 
         &::before {
           transform: rotate(-45deg) translate3d(  
-            $hamburger-layer-width, -7
+            $hamburger-layer-width / -7,
             $hamburger-layer-spacing * -1, 
             0
             );
